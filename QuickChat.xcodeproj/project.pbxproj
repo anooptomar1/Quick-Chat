@@ -23,6 +23,7 @@
 		22EA578F1E1D28DD0008FFB2 /* newMessage.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22EA578E1E1D28DD0008FFB2 /* newMessage.wav */; };
 		22EA57911E1D32520008FFB2 /* VCCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EA57901E1D32520008FFB2 /* VCCells.swift */; };
 		62058F6006BD9ACBE0439C4B /* Pods_QuickChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8041C4B4A9DA4F0F53D2BDE /* Pods_QuickChat.framework */; };
+		E053CF6C1E2F9F080063A18D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E053CF6B1E2F9F080063A18D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		614F8B4888358059B3DC166B /* Pods-QuickChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickChat/Pods-QuickChat.debug.xcconfig"; sourceTree = "<group>"; };
 		B8041C4B4A9DA4F0F53D2BDE /* Pods_QuickChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FBFCFF82B6EB57B02FA375 /* Pods-QuickChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickChat/Pods-QuickChat.release.xcconfig"; sourceTree = "<group>"; };
+		E053CF6B1E2F9F080063A18D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		22A92BA41D59EBD5005D76F7 = {
 			isa = PBXGroup;
 			children = (
+				E053CF6A1E2F9F080063A18D /* Config */,
 				22A92BAF1D59EBD6005D76F7 /* QuickChat */,
 				22A92BAE1D59EBD6005D76F7 /* Products */,
 				ADD6E8E924E29AFE4DBB9FB3 /* Pods */,
@@ -143,6 +146,14 @@
 				B8FBFCFF82B6EB57B02FA375 /* Pods-QuickChat.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E053CF6A1E2F9F080063A18D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E053CF6B1E2F9F080063A18D /* GoogleService-Info.plist */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A92BB81D59EBD6005D76F7 /* Assets.xcassets in Resources */,
+				E053CF6C1E2F9F080063A18D /* GoogleService-Info.plist in Resources */,
 				22EA578F1E1D28DD0008FFB2 /* newMessage.wav in Resources */,
 				224AFA9D1D867DE7004E7CCD /* Main.storyboard in Resources */,
 			);

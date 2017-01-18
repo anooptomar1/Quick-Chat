@@ -44,6 +44,7 @@ xcuserdata/
 *.ipa
 *.dSYM.zip
 *.dSYM
+.DS_Store
 
 ## Playgrounds
 timeline.xctimeline
@@ -83,4 +84,4 @@ fastlane/screenshots
 fastlane/test_output
 
 # End of https://www.gitignore.io/api/xcode,swift
-0Looking
+Config/
